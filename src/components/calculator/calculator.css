@@ -1,0 +1,65 @@
+/* *,*::after,*::before{
+    box-sizing: border-box;
+    font-size: 12px;
+} */
+body{
+    /* margin: 0; */
+    /* background-color: rgb(22, 33, 41); */
+    /* background-color: aqua; */
+    /* background-color: black; */
+}
+/* .span-two{
+    grid-column: span 2;
+} */
+/* grid-cols-4 grid-rows-[minmax(7rem, auto) repeat(5,6rem)] */
+.calculator-grid{
+    /* display: grid;
+    justify-content: center;
+    margin-top: 2rem; */
+    grid-template-columns: repeat(4, 3.5rem);
+    grid-template-rows: minmax(7rem, auto) repeat(5,4rem);
+    /* border: 2px solid aqua; */
+} 
+.output{
+    /* grid-column: span 1 / -1; */
+    /* grid-column: span 4 ;
+    background-color: rgba(0,0,0,.75);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: .75rem;
+    word-wrap: break-word;
+    word-break: break-all; */
+    /* border: 2px solid aqua;
+    box-shadow: 10px 20px 30px aqua; */
+
+}
+/* .output .previous-operand{
+color: rgba(255,255,255,.75);
+font-size: 1.5rem;
+}
+.output .current-operand{
+color: rgba(255,255,255);
+font-size: 2.5rem;
+} */
+
+/* button{
+    cursor: pointer;
+    border: 1px solid white;
+    font-size: 2rem;
+    outline: none;
+background-color: rgba(255,255,255,.75);
+}
+button:hover,button:focus{
+background-color: rgba(255,255,255,.90);
+} */
+
+button{
+    /* height: 3rem; */
+    /* width: 3rem; */
+    text-align: center;
+}
+
+/* background: rgb(204,44,136); */
+/* background: linear-gradient(90deg, rgba(204,44,136,1) 25%, rgba(223,112,22,1) 100%); */
