@@ -68,7 +68,7 @@ const handleSearch = () => {
           className="h-auto text-white items-center px-20 w-[100%] xml:h-[585px] bg-cover bg-center bg-opacity-50 overflow-hidden "
           style={{
             backgroundImage:
-              "url(https://images.pexels.com/photos/1154510/pexels-photo-1154510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
+              "url(https://images.pexels.com/photos/1154510/pexels-photo-1154510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)"
           }}
         >
           <nav className="h-[100px] flex justify-between items-center mb-5 p-5 ">

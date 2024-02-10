@@ -10,8 +10,8 @@ function Home() {
   return (
     <>
       {/* <div className="flex items-center"> */}
-        {/* <Clock /> */}
-        <Weather2 />
+        <Clock />
+        {/* <Weather2 /> */}
         {/* <Calculator/> */}
         {/* <Calculator2/> */}
         {/* <Dummy/> */}
