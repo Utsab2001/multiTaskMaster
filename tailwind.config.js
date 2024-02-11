@@ -8,6 +8,7 @@ export default {
     extend: {
             screens: {
         'xml': '800px', // Custom breakpoint
+        'xs': '480px', // Custom breakpoint
         'sl': '1920px', // Another custom breakpoint
       },
     },

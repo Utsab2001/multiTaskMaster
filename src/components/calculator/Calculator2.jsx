@@ -148,8 +148,12 @@ function App() {
 
   return (
     <>
+      <div className="back flex gap-1 fixed top-4 left-4 text-white cursor-pointer">
+        <img src="/back.png" alt="" width={20} />
+        <p>Back</p>
+      </div>
       <div
-        className="flex text-white items-center justify-end w-full h-[585px]  bg-cover bg-center bg-opacity-5 overflow-hidden pr-10 sm:pr-10 md:pr-20 lg:pr-36"
+        className="flex text-white items-center justify-center sm:justify-end w-full h-[585px]  bg-cover bg-center bg-opacity-5 overflow-hidden sm:pr-16 md:pr-20 lg:pr-36"
         style={{
           backgroundImage:
             "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_8sdPnr-i0V6WT9FnI-tN4oh2yA01KAWthA&usqp=CAU)",

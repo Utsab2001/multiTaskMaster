@@ -25,6 +25,10 @@ function Clock() {
             "url(https://t4.ftcdn.net/jpg/01/16/88/37/360_F_116883786_wuckft1sNw1ouQfJ6FuquZnxea3qBlxy.jpg)",
         }}
       >
+        <div className="back flex gap-1 fixed top-4 left-4 text-white cursor-pointer">
+          <img src="/back.png" alt="" width={20}/>
+          <p>Back</p>
+        </div>
         <div className="clock w-80 h-64 p-8 bg-slate-950 rounded-lg shadow-lg flex flex-col justify-center items-center text-white">
           <div
             id="dateC"
