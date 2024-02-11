@@ -5,6 +5,7 @@ import Clock from './components/Clock';
 import Calculator2 from './components/calculator/Calculator2';
 import Weather2 from './components/Weather2';
 import Dummy from './components/Dummy';
+import Home from './components/Home';
 
 
 
@@ -14,7 +15,8 @@ function App() {
   return (
     <>
       {/* <div className="flex items-center"> */}
-      <Clock />
+      <Home/>
+      {/* <Clock /> */}
       {/* <Weather2 /> */}
       {/* <Calculator /> */}
       {/* <Calculator2 /> */}
