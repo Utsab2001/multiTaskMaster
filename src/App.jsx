@@ -14,8 +14,9 @@ function App() {
 
   return (
     <>
+    <Outlet/>
       {/* <div className="flex items-center"> */}
-      <Home/>
+      {/* <Home/> */}
       {/* <Clock /> */}
       {/* <Weather2 /> */}
       {/* <Calculator /> */}
