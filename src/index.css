@@ -14,3 +14,47 @@
           scrollbar-width: none;  /* Firefox */
     }
   }
+
+
+
+  /* import React from 'react'
+
+const NewsItemSmall = (props) => {
+     let { title, date, imageUrl, newsUrl, author } = props;
+  return (
+    <>
+      <a className='flex w-[150px] h-20 p-5' to={newsUrl}>
+        <img src={imageUrl} alt="" className='w-[100px] h-20'/>
+        <div className="right flex flex-col">
+            <div className="text-xs flex gap-2 font-semibold">
+              <p className="text-red-600">By {author}</p>
+              <p className="text-gray-700"> {date}</p>
+            </div>
+            <h5 className="text-base font-bold">{title}</h5>
+        </div>
+      </a>
+    </>
+  );
+}
+
+export default NewsItemSmall
+
+
+
+        <div className="w-auto flex gap-10 ">
+          {articles.map((element) => {
+            return (
+              <>
+                <NewsItemSmall
+                  key={element.article_id}
+                  title={element.title ? element.title : ""}
+                  // description={element.description ? element.description : ""}
+                  imageUrl={element.image_url}
+                  date={element.pubDate}
+                  newsUrl={element.source_url}
+                  author={element.creator}
+                />
+              </>
+            );
+          })}
+        </div> */

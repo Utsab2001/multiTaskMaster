@@ -12,13 +12,13 @@ function Home() {
             <img src="/weather.png" alt="" className="w-14" />
             <h5>Weather</h5>
           </Link>
-          <Link
-            to="/notes"
+          <a
+            href="/notes"
             className="w-20  p-2 flex flex-col gap-2 items-center cursor-pointer"
           >
             <img src="/notes.png" alt="" className="w-12" />
             <h5>Notes</h5>
-          </Link>
+          </a>
           <Link
             to="/calculator"
             className="w-20  p-2 flex flex-col gap-2 items-center cursor-pointer"
